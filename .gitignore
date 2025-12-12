@@ -1,0 +1,10 @@
+# Lingkungan Virtual Python
+venv/
+.venv/
+
+# Direktori Dataset (Asumsikan nama foldernya "dataset")
+DatasetFinal/
+
+# File Kompilasi dan Cache
+__pycache__/
+*.pyc

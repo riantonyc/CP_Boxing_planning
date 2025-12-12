@@ -1,0 +1,38 @@
+{
+  "selected_method": "kmeans_pp",
+  "k": 3,
+  "dbscan_params": {
+    "eps": 0.2,
+    "min_samples": 3,
+    "dbscan_clusters": 345
+  },
+  "n_raw": 10000,
+  "n_clean": 10000,
+  "metrics": [
+    {
+      "method": "kmeans_pp",
+      "silhouette": 0.6204801656267566,
+      "davies_bouldin": 0.5691264744532594
+    },
+    {
+      "method": "kmeans_dbscan_init",
+      "silhouette": 0.6204801656267566,
+      "davies_bouldin": 0.5691264744532594
+    },
+    {
+      "method": "kmeans_oversample",
+      "silhouette": 0.6204801656267566,
+      "davies_bouldin": 0.5691264744532594
+    },
+    {
+      "method": "gmm",
+      "silhouette": 0.6204801656267566,
+      "davies_bouldin": 0.5691264744532594
+    }
+  ],
+  "cluster_to_role": {
+    "1": "kuat",
+    "2": "mampu",
+    "0": "kurang_optimal"
+  }
+}

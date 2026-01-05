@@ -12,7 +12,7 @@ OUT_DIR = "."
 os.makedirs("data", exist_ok=True)
 
 if not os.path.exists(DATA_CSV_PATH):
-    # sample small dataset (replace with your CSV)
+    # contoh data kecil
     sample = {
         "VO2_Max": [59.24, 57.65, 59.62, 61.81, 57.41, 57.41, 61.95, 59.92, 56.83, 59.36, 56.84, 56.84],
         "Sprint30m_sec": [4.79, 4.56, 5.03, 4.95, 4.96, 4.62, 5.08, 4.52, 4.91, 5.23, 4.60, 4.69],

@@ -231,6 +231,6 @@ def predict_from_list(values, check_distance_to_center=False, distance_threshold
 
 # Jika file ini dijalankan sebagai script, contoh panggilan cepat
 if __name__ == "__main__":
-    example = [60.0, 4.6, 75, 36.0, 1.75, 55]
+    example = [60.0, 4.6, 75, 36.0, 1.75, 55] # ini contoh input jika file code ini dijalankan langsung
     print("Contoh input:", example)
     print("Hasil prediksi:", predict_from_list(example, check_distance_to_center=True, distance_threshold=3.0))

@@ -1,0 +1,2 @@
+model,silhouette_score,davies_bouldin_index,calinski_harabasz_index,inertia
+KMeans (init=k-means++),0.607522051205541,0.5900571147533505,21192.575815802567,655.1656012147566

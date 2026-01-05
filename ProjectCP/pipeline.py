@@ -38,7 +38,6 @@ DEFAULT_PLANS_DIR = "Training_Plans"
 # PREPROCESSING HELPERS
 # -------------------------
 def ensure_dirs(*dirs: str):
-    """Pastikan direktori ada (jika belum ada, buat)."""
     for d in dirs:
         os.makedirs(d, exist_ok=True)
 
